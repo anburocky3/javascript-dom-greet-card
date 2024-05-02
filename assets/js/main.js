@@ -20,7 +20,7 @@ hobbiesCheck.forEach((hobby) => {
 console.log(existingHobbies);
 
 
-hobbiesEL.innerHTML = existingHobbies
+hobbiesEL.innerHTML = existingHobbies.join(" ")
 
 
 
